@@ -34,10 +34,18 @@ public class MainLinkList {
         linkList3.add("Nick");
         linkList3.add("Sam");
 
-        linkList3.printList();
+//        linkList3.printList();
+//
+//        linkList3.quickSort();
+//        linkList3.printList();
+//        linkList3.printListReverse();
 
-        linkList3.quickSort();
+//        linkList3.printList();
+//        linkList3.turnLinkList();
+//        linkList3.printList();
+
         linkList3.printList();
-        linkList3.printListReverse();
+        linkList3.turnDoublyLinkList();
+        linkList3.printList();
     }
 }

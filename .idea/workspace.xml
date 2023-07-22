@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63a96ba-d25a-4ce2-a791-6d3d404fdbf3" name="Changes" comment="added sortingTypes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/LinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/LinkListGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/MainLinkList.java" afterDir="false" />
+    <list default="true" id="e63a96ba-d25a-4ce2-a791-6d3d404fdbf3" name="Changes" comment="added LinkedList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/LinkListGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/LinkListGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/MainLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/MainLinkList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689422421965</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added LinkedList">
+      <created>1689954788058</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689954788058</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,7 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added sortingTypes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sortingTypes" />
+    <MESSAGE value="added LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="added LinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -201,6 +201,32 @@ public class LinkList {
         node2.value = temp;
     }
 
+    public void turnLinkList() {
+        if (root == null || size == 1) return;
+        Node currentNode = root.next;
+        root.next = null;
+        while (currentNode != null) {
+            Node next = currentNode.next;
+            currentNode.next = root;
+            root = currentNode;
+            currentNode = next;
+        }
+    }
+
+    public void turnDoublyLinkList() {
+        if (root == null || size == 1) return;
+        Node currentNode = root.next;
+        root.next = null;
+        root.prev = currentNode;
+        while (currentNode != null) {
+            Node next = currentNode.next;
+            currentNode.next = root;
+            root.prev = currentNode;
+            root = currentNode;
+            currentNode = next;
+        }
+    }
+
     public void printList() {
         Node currentNode = root;
         System.out.print("[ ");
