@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63a96ba-d25a-4ce2-a791-6d3d404fdbf3" name="Changes" comment="added LinkedList">
+    <list default="true" id="e63a96ba-d25a-4ce2-a791-6d3d404fdbf3" name="Changes" comment="added turning of simple &amp; doubly linked list">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMaps/Bucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMaps/MainHashMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMaps/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMaps/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RedBlackTree/MainRBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RedBlackTree/MyRBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RedBlackTree/NodeRBT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/LinkListGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/LinkListGeneric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/MainLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedLists/MainLinkList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainLinkList">
+  <component name="RunManager" selected="Application.MainRBTree">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Algorithms" />
@@ -55,12 +59,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainHashMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HashMaps.MainHashMaps" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.HashMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.LinkedLists.MainLinkList" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.LinkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainRBTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.RedBlackTree.MainRBTree" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.RedBlackTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,6 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainRBTree" />
+        <item itemvalue="Application.MainHashMaps" />
         <item itemvalue="Application.MainLinkList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SortingMain" />
@@ -112,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689954788058</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added turning of simple &amp; doubly linked list">
+      <created>1690034726655</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690034726655</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,7 +168,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added sortingTypes" />
     <MESSAGE value="added LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="added LinkedList" />
+    <MESSAGE value="added turning of simple &amp; doubly linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="added turning of simple &amp; doubly linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
